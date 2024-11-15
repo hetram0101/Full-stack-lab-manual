@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <style>
+        /* General Page Layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            height: 100vh; /* Full height */
+            width: 250px; /* Sidebar width */
+            background-color: #333;
+            position: fixed; /* Stay on the side */
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: 0.3s; /* Smooth transition when resizing */
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 250px; /* Offset content by the sidebar width */
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .sidebar a {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Responsive Sidebar Example</h1>
+        <p>This is an example of a responsive sidebar. Resize the browser window to see how it adjusts for smaller screen sizes.</p>
+    </div>
+
+</body>
+</html>
