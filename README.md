@@ -1,1 +1,0 @@
-# Full-stack-lab-manual
