@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+</head>
+<body>
+
+    <h1>Weekly Timetable</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 AM - 9:00 AM</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>History</td>
+                <td>Physical Education</td>
+            </tr>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Geography</td>
+                <td>Art</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 11:00 AM</td>
+                <td>History</td>
+                <td>Physical Education</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>English</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">* This is a sample timetable</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
